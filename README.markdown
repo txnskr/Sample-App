@@ -1,0 +1,1 @@
+This is the sample app for [*Ruby on Rails Tutorial: Learn Rails by example*]
