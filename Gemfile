@@ -15,7 +15,6 @@ end
 group:production do
   gem 'pg'
   gem 'uglifier'
-  gem 'therubyracer'
 end
 
 group :test do
