@@ -47,6 +47,9 @@ module SampleApp
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    
+    #from Heroku dev center to https://devcenter.heroku.com/articles/rails3x-asset-pipeline-cedar
+    config.assets.initialize_on_precompile = false
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
